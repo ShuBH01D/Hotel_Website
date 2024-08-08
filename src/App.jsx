@@ -7,7 +7,7 @@ import Facilities from "./components/facilities/Facilities";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Roomsandsuits from "./components/room/Roomsandsuits";
-import Contactus from "./components/contact/Contactus";
+import Contactus from "./components/contact/Contactus"
 
 
 
