@@ -12,7 +12,7 @@ function Header() {
                         <li>
                             <Link
                                 to="/"
-                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-300"
+                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-30 ]"
                             >
                                 Home
                             </Link>

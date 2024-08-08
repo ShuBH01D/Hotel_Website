@@ -106,7 +106,7 @@ function Home() {
                     <p className="font-bold font-roboto text-[69px] p-2 flex">
                         A Memorable Experience.
                     </p>
-                    <button className="border-2 border-[#9B51E0] text-white bg-[#9B51E0] xl:w-[11%] xsm:p-4 xsm:text-3xl text-[24px] font-bold">
+                    <button className="border-2 border-[#9B51E0] text-white bg-[#9B51E0] xl:w-[12%] xl:text-2xl xl:p-1 xsm:p-4 xsm:text-3xl text-[24px] font-bold">
                         Reserve Now
                     </button>
                 </div>
@@ -136,7 +136,7 @@ function Home() {
                     </p>
                     <br />
                     <br />
-                    <button className="font-sans font-semibold border-2 border-[#9B51E0] text-white bg-[#9B51E0] p-2 xl:ml-2 xl:p-0 xsm:w-40 xsm:text-2xl xl:w-40 xl:text-2xl xsm:p-2">
+                    <button className=" font-semibold border-2 border-[#9B51E0] text-white bg-[#9B51E0]  xl:ml-3 xl:p-[5px] xl:font-bold xl:mt-2  xsm:w-40 xsm:text-2xl xl:w-[176px] xl:text-xl xsm:p-2 ">
                         Read More
                     </button>
                 </div>
