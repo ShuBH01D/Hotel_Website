@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
     return (
@@ -10,51 +10,64 @@ function Header() {
                 <nav className='xl:w-[60%] xl:flex xsm:w-full xsm:flex xsm:justify-center xsm:mx-36 xsm:p-5'>
                     <ul className="xl:flex font-[Roboto] font-bold xl:text-[25px] text-black xl:space-x-20 xl:pl-14 xsm:w-[100%] xsm:flex xsm:space-x-10 xsm:text-3xl">
                         <li>
-                            <Link
+                            <NavLink
                                 to="/"
-                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-30 ]"
+                                className={({ isActive }) =>
+                                    `text-gray-700 hover:text-[#b05cff] transition-colors duration-300 ${isActive ? 'text-[#b05cff]' : 'text-gray-700'}`
+                                }
                             >
                                 Home
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link
+                            <NavLink
                                 to="/room"
-                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-300"
+                                className={({ isActive }) =>
+                                    `text-gray-700 hover:text-[#b05cff] transition-colors duration-300 ${isActive ? 'text-[#b05cff]' : 'text-gray-700'}`
+                                }
                             >
-                                Rooms&Suits
-                            </Link>
+                                Rooms&Suites
+                            </NavLink>
                         </li>
                         <li>
-                            <Link
+                            <NavLink
                                 to="/facilities"
-                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-300"
+                                className={({ isActive }) =>
+                                    `text-gray-700 hover:text-[#b05cff] transition-colors duration-300 ${isActive ? 'text-[#b05cff]' : 'text-gray-700'}`
+                                }
                             >
                                 Facilities
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link
+                            <NavLink
                                 to="/contact"
-                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-300">
-                                Contacts
-                            </Link>
+                                className={({ isActive }) =>
+                                    `text-gray-700 hover:text-[#b05cff] transition-colors duration-300 ${isActive ? 'text-[#b05cff]' : 'text-gray-700'}`
+                                }
+                            >
+                                Contact
+                            </NavLink>
                         </li>
                         <li>
-                            <Link
+                            <NavLink
 
-                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-300"
+                                className={({ isActive }) =>
+                                    `text-gray-700 hover:text-[#b05cff] transition-colors duration-300'text-[#b05cff]' : 'text-gray-700'}`
+                                }
                             >
                                 Offers
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link
+                            <NavLink
 
-                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-300"
+                                className={({ isActive }) =>
+                                    `text-gray-700 hover:text-[#b05cff] transition-colors duration-300  'text-[#b05cff]' : 'text-gray-700'}`
+                                }
                             >
                                 Events
-                            </Link>
+                            </NavLink>
                         </li>
                     </ul>
                 </nav>
