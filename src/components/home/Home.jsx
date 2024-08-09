@@ -112,7 +112,7 @@ function Home() {
                 </div>
             </div>
             <div className="xl:w-[100%] xl:flex xl:justify-center xl:items-center xl:flex-row xl:mt-32 xl:pb-12 xsm:w-full xsm:justify-center xsm:flex xsm:flex-col">
-                <div className="first w-[50%] xl:pt-0 xl:mb-24 xl:h-[60vh] xl:ml-[53px] xl:flex xl:flex-col xl:text-left xsm:text-center space-y-1 xsm:w-[1100px]">
+                <div className="first w-[50%] xl:pt-0 xl:mb-32 xl:h-[60vh] xl:ml-[60px] xl:flex xl:flex-col xl:text-left xsm:text-center space-y-1 xsm:w-[1100px]">
                     <p className="text-black w-full font-sans font-bold pb-16 pl-6 xl:text-4xl xsm:pt-5 xsm:text-5xl">
                         About <span className="text-[#9B51E0]">Hotel Lunar</span>
                     </p>
@@ -140,7 +140,7 @@ function Home() {
                         Read More
                     </button>
                 </div>
-                <div className="xsm:pt-[20px] xl:ml-[120px] xl:mr-3 xl:w-[1120px] xsm:flex xsm:ml-[200px] xsm:items-center xsm:w-[800px]">
+                <div className="xsm:pt-[20px] xl:pt-0 xl:ml-[90px] xl:mr-3 xl:w-[1120px] xsm:flex xsm:ml-[200px] xsm:items-center xsm:w-[800px]">
                     <img src={bg2} alt="Background 2" className="xsm:flex xsm:justify-center xsm:items-center xsm:h-[590px] xl:h-[550px] xl:w-[630px]" />
                 </div>
             </div>
