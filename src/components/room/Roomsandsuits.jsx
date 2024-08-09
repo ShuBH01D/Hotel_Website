@@ -57,7 +57,7 @@ function Roomsandsuits() {
                 </div>
             </div>
 
-            <div className='xl:w-full  flex xl:mt-[70px] xsm:mt-12 xsm:w-[1100px] xsm:gap-3 xsm:flex-col xl:flex-row '>
+            <div className='xl:w-full  flex xl:mt-[70px] xsm:mt-12 xsm:w-[1100px] xsm:gap-3 xl:gap-0 xsm:flex-col xl:flex-row '>
                 <div className=' xl:w-3/6  h-full  flex flex-col xsm:w-[1100px]  '>
                     <div className='w-full flex justify-center'><img src={s3} alt="rm1" className='w-[624px] h-[390px]'></img></div>
                     <h1 className='font-sans xsm:text-5xl xl:text-3xl  font-bold flex justify-center pt-11'>Standard Double Room</h1>
