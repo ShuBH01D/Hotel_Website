@@ -145,10 +145,11 @@ function Home() {
                 </div>
             </div>
             <div
-                className="relative xl:w-full h-[96vh] bg-cover bg-center mt-20 mb-20 xsm:w-[1100px]"
-                style={{ backgroundImage: `url(${group3})` }}
-            >
-                <div className="absolute inset-0 flex flex-col items-center text-white justify-center space-y-24">
+                className="relative xl:w-full h-[96vh] bg-cover bg-center mt-20 mb-20 xsm:w-[1100px] bg-black bg-opacity-65"
+                style={{ backgroundImage: `url(${group3})` }} >
+                <div className="absolute inset-0 bg-[#14274A] opacity-50"></div>
+
+                <div className="absolute inset-0 flex flex-col items-center text-white justify-center space-y-24 shadow-lg">
                     <p className="font-bold font-sans xsm:text-5xl flex">
                         Events & Weddings
                     </p>

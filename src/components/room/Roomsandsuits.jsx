@@ -14,6 +14,7 @@ function Roomsandsuits() {
             <div
                 className="relative xl:w-full xl:h-[100vh] bg-cover bg-center xsm:w-[1100px] xsm:h-[80vh]"
                 style={{ backgroundImage: `url(${back})` }}>
+                <div className="absolute inset-0 bg-red-900 opacity-10"></div>
                 <div className="absolute inset-0 flex flex-col  items-center  text-white justify-center mb-[115px]">
                     <p className='font-bold font-sans text-[69px] p-2 flex '>OUR ROOMS AND RATE</p>
                 </div>

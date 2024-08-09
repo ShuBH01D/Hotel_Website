@@ -15,6 +15,7 @@ function Facilities() {
             <div
                 className="xl:relative xsm:relative xl:w-full xl:h-[100vh] xl:bg-cover xl:bg-center xsm:w-[1100px] xsm:h-[80vh]"
                 style={{ backgroundImage: `url(${gym})` }}>
+                <div className="absolute inset-0 bg-[#14274A] opacity-50"></div>
                 <div className="xl:absolute xl:inset-0 xl:flex xl:flex-col xl:items-center  text-white xl:justify-center xl:mb-[115px] xsm:absolute xsm:inset-0 xsm:flex xsm:items-center xsm:justify-center">
                     <p className='font-bold font-sans xl:text-[70px] xl:p-2 xl:flex xsm:text-4xl'>FACILITIES</p>
                 </div>
