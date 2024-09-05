@@ -1,73 +1,62 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 
 function Header() {
+
     return (
-        <header className="bg-white shadow-md">
-            <div className="container xl:mx-auto xl:flex xl:items-center xl:justify-between xl:p-5 text-black xl:w-full xl:flex-row xsm:flex xsm:flex-col xsm:w-full">
-                <div className="xl:w-[40%] xl:flex text-[rgb(152,63,235)] xl:text-3xl font-Roboto font-bold xl:ml-1 xsm:w-[100%]  xsm:flex xsm:justify-center xsm:ml-96 xsm:text-5xl xsm:p-4">
+        <header className="bg-white shadow-md ">
+            <div className="container xl:mx-auto xl:flex xl:pb-9 xsm:pb-8  xl:justify-between xl: text-black xl:w-full xl:flex-row xsm:flex xsm:flex-col xsm:w-full">
+                <div className="xl:w-[30%] xl:flex text-[#9B51E0] xl:text-3xl font-Roboto font-bold xl:-ml-14 xl:pt-9 xsm:w-[100%]  xsm:flex xsm:justify-center xsm:ml-96 xsm:text-5xl xsm:p-4">
                     Hotel Lunar
                 </div>
-                <nav className='xl:w-[60%] xl:flex xsm:w-full xsm:flex xsm:justify-center xsm:mx-36 xsm:p-5'>
-                    <ul className="xl:flex font-[Roboto] font-bold xl:text-[25px] text-black xl:space-x-20 xl:pl-14 xsm:w-[100%] xsm:flex xsm:space-x-10 xsm:text-3xl">
+                <nav className='xl:w-[70%] xl:flex xsm:w-full xsm:flex xsm:justify-center xsm:mx-20 xsm:pt-9 xl:pr-12'>
+                    <ul className="xl:flex font-[#Roboto] font-bold xl:text-[23px] text-[#4F4F4F] xl:space-x-16 xl:ml-52  xsm:w-[100%] xsm:flex xsm:space-x-10 xsm:text-3xl ">
                         <li>
-                            <NavLink
+                            <Link
                                 to="/"
-                                className={({ isActive }) =>
-                                    `text-gray-700 hover:text-[#b05cff] transition-colors duration-300 ${isActive ? 'text-[#b05cff]' : 'text-gray-700'}`
-                                }
+                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-30 ]"
                             >
                                 Home
-                            </NavLink>
+                            </Link>
                         </li>
                         <li>
-                            <NavLink
+                            <Link
                                 to="/room"
-                                className={({ isActive }) =>
-                                    `text-gray-700 hover:text-[#b05cff] transition-colors duration-300 ${isActive ? 'text-[#b05cff]' : 'text-gray-700'}`
-                                }
+                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-300 flex flex-row xl:w-[160px] xsm:w-[240px]"
                             >
-                                Rooms&Suites
-                            </NavLink>
+                                Rooms & Suits
+                            </Link>
                         </li>
                         <li>
-                            <NavLink
+                            <Link
                                 to="/facilities"
-                                className={({ isActive }) =>
-                                    `text-gray-700 hover:text-[#b05cff] transition-colors duration-300 ${isActive ? 'text-[#b05cff]' : 'text-gray-700'}`
-                                }
+                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-300  xl:pl-2 xsm:pl-0"
                             >
                                 Facilities
-                            </NavLink>
+                            </Link>
                         </li>
                         <li>
-                            <NavLink
+                            <Link
                                 to="/contact"
-                                className={({ isActive }) =>
-                                    `text-gray-700 hover:text-[#b05cff] transition-colors duration-300 ${isActive ? 'text-[#b05cff]' : 'text-gray-700'}`
-                                }
-                            >
-                                Contact
-                            </NavLink>
+                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-300 xl:pl-2">
+                                Contacts
+                            </Link>
                         </li>
                         <li>
-                            <NavLink
+                            <Link
 
-                                className={({ isActive }) =>
-                                    `text-gray-700 hover:text-[#b05cff] transition-colors duration-300'text-[#b05cff]' : 'text-gray-700'}`
-                                }
+                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-300 xl:pl-1 xsm:pl-0"
                             >
                                 Offers
-                            </NavLink>
+                            </Link>
                         </li>
                         <li>
-                            <NavLink
+                            <Link
 
-                                className={({ isActive }) =>
-                                    `text-gray-700 hover:text-[#b05cff] transition-colors duration-300  'text-[#b05cff]' : 'text-gray-700'}`
-                                }
+                                className="text-gray-700 hover:text-[#b05cff] transition-colors duration-300 xl:-pl-1 xsm:pl-0"
                             >
                                 Events
-                            </NavLink>
+                            </Link>
                         </li>
                     </ul>
                 </nav>

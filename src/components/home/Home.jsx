@@ -7,12 +7,15 @@ import bg2 from '../../assets/images/bg2.png';
 import group3 from '../../assets/images/group3.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { FaArrowLeft } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 import '../../App.css';
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
+
 
 // Custom arrow component for the previous slide
 const PrevArrow = ({ className, style, onClick }) => (
-    <BsChevronCompactLeft
+    <FaArrowLeft
+
         className={`${className} absolute  z-10 flex items-center justify-center cursor-pointer `}
 
         onClick={onClick}
@@ -22,7 +25,7 @@ const PrevArrow = ({ className, style, onClick }) => (
 
 // Custom arrow component for the next slide
 const NextArrow = ({ className, style, onClick }) => (
-    <BsChevronCompactRight
+    <FaArrowRight
         className={`${className} absolute  z-10 flex items-center justify-center cursor-pointer`}
 
         onClick={onClick}
@@ -102,8 +105,8 @@ function Home() {
                 className="relative xl:w-full xl:h-[100vh] bg-cover bg-center xsm:w-[1100px] xsm:h-[80vh]"
                 style={{ backgroundImage: `url(${background})` }}
             >
-                <div className="absolute inset-0 flex flex-col items-center gap-12 text-white justify-center">
-                    <p className="font-bold font-roboto text-[69px] p-2 flex">
+                <div className="absolute inset-0 flex flex-col items-center gap-6 text-white justify-center xl:-mt-7">
+                    <p className="font-bold font-roboto text-[68px] p-2 flex">
                         A Memorable Experience.
                     </p>
                     <button className="border-2 border-[#9B51E0] text-white bg-[#9B51E0] xl:w-[12%] xl:text-2xl xl:p-1 xsm:p-4 xsm:text-3xl text-[24px] font-bold">
@@ -116,23 +119,23 @@ function Home() {
                     <p className="text-black w-full font-sans font-bold pb-16 pl-6 xl:text-4xl xsm:pt-5 xsm:text-5xl">
                         About <span className="text-[#9B51E0]">Hotel Lunar</span>
                     </p>
-                    <p className="font-sans pl-4 xl:text-xl font-semibold xsm:text-2xl">
+                    <p className="font-[#Roboto] pl-4 xl:text-xl font-bold text-[#4F4F4F] xsm:text-2xl">
                         Ladies and gentlemen, history keeps repeating itself but doesn't
                         <br />
                         teach us any lessons. 'Never again' has turned into 'again and
-                        <br /> again and again. ' So today, ladies and gentlemen, take Hotel
+                        again  <br />and again.' So today, ladies and gentlemen, take Hotel
                         Lunar as a <br /> wake-up call and a message to be our messenger
                         that people are the <br />
                         ones who can change what they want to change.
                     </p>
-                    <p className="font-sans p-3 justify xl:text-xl font-semibold xsm:text-2xl">
+                    <p className="font-[#Roboto] p-3 justify xl:text-xl font-bold xsm:text-2xl text-[#4F4F4F]">
                         Ladies and gentlemen, history keeps repeating itself but doesn't
-                        <br /> teach us any lessons. 'Never again' has turned into 'again
                         <br />
-                        and again and again. ' So today, ladies and gentlemen, take Hotel
+                        teach us any lessons. 'Never again' has turned into 'again and
+                        again  <br />and again.' So today, ladies and gentlemen, take Hotel
                         Lunar as a <br /> wake-up call and a message to be our messenger
-                        that people are the
-                        <br /> ones who can change what they want to change.
+                        that people are the <br />
+                        ones who can change what they want to change.
                     </p>
                     <br />
                     <br />
@@ -150,10 +153,10 @@ function Home() {
                 <div className="absolute inset-0 bg-[#14274A] opacity-50"></div>
 
                 <div className="absolute inset-0 flex flex-col items-center text-white justify-center space-y-24 shadow-lg">
-                    <p className="font-bold font-sans xsm:text-5xl flex">
+                    <p className="font-bold font-sans xl:text-4xl xsm:text-5xl flex">
                         Events & Weddings
                     </p>
-                    <p className="xl:font-bold font-sans xsm:text-2xl bg-inherit xsm:text-center xl:text-center flex text-2xl leading-[24px]">
+                    <p className="xl:font-semibold 	 font-[roboto] xl:text-1xl xsm:text-2xl bg-inherit xsm:text-center xl:text-center flex text-2xl ">
                         Ladies and gentlemen, history keeps repeating itself but doesn't
                         teach us any lessons. 'Never again'
                         <br /> has turned into 'again and again and again.' So today, ladies

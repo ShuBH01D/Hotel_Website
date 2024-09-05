@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
     return (
         <>
-            <div className='xl:flex xl:flex-row xl:w-full text-white xl:h-[62vh] bg-[#3E3C3C] xsm:w-[1100px] xsm:space-y-2'>
+            <div className='xl:flex xl:flex-row xl:w-full text-white xl:h-[62vh] bg-[#3E3C3C] xsm:w-[1100px] xsm:space-y-2 '>
                 <div className='xl:w-[40%] xl:pt-16 xl:font-[Robo] xl:flex xl:justify-start xsm:w-full xsm:flex xsm:justify-center'>
                     <div className=' xl:flex'>
                         <div className='xl:flex xl:flex-col xl:p-11 font-sans  xl:space-y-5 xsm:p-10 xl:text-left xl:pl-[80px]'>
@@ -15,6 +15,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
+
                 <div className='xl:w-[30%] xl:pt-20 font-sans xl:pr-[10px] xl:flex xl:justify-end xsm:w-full xsm:flex xsm:justify-center xsm:pt-4'>
                     <div className=' xl:p-11 font-sans xl:space-y-6 xsm:text-center xl:text-left'>
                         <p className='xl:text-2xl xsm:text-3xl xsm:p-2 xl:p-0 font-semibold'><Link to="/">ABOUT US</Link></p>
